@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <menuitem id="ejemplo_root_menu" name="Prueba">
+        <menuitem id="ejemplo_firstlevel_menu" name="First level">
+            <menuitem id="ejemplo_real_estate_menu" action="prueba_model_action"></menuitem>
+        </menuitem>
+    </menuitem>
+</odoo>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record id="prueba_model_action" model="ir.actions.act_window">
+        <field name="name">Accion ejemplo</field> 
+        <field name="res_model">ejemplo.real.estate.model</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+</odoo>

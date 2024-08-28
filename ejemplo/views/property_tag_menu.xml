@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <menuitem id="ejemplo_root_menu" name="Prueba">
+        <menuitem id="ejemplo_firstlevel_property_menu" name="Property First level">
+            <menuitem id="property_tag_menu" action="property_tag_action"></menuitem>
+        </menuitem>
+    </menuitem>
+</odoo>

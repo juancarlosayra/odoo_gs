@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="property_offer_form" model="ir.ui.view">
+        <field name="name">property.offer.form</field>
+        <field name="model">ejemplo.property.offer</field>
+        <field name="arch" type="xml">
+            <form string="Offer">
+                <sheet>
+                    <group>
+                        <field name="price" string="Price"/>
+                        <field name="partner_id" string="Partner"/>
+                        <field name="status" string="Status">
+                        
+                        </field>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>
+

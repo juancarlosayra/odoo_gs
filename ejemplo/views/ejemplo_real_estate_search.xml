@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+  
+<record id="properties_type_view_search" model="ir.ui.view">
+  <field name="name">ejemplo.real.estate.view.search</field>
+  <field name="model">ejemplo.real.estate.model</field>
+  <field name="arch" type="xml">
+    <search string= 'Test'>
+
+      <field name="name"/>
+      <field name="postcode" />
+      <field name="expected_price" />
+      <field name="bedrooms" />
+      <field name="living_area" />
+      <field name="facades" />
+      <field name="property_type_id" />
+      
+      
+      <separator/>
+       
+       <filter string="Availabe" name="inactivo" domain="['|',('state','=','new'),('state','=','offer received')]"/>
+       <group expand="1" string="Agrupar por">
+       <filter string="Código postal" name="codigo_postal" context="{'group_by':'postcode'}"/>
+       </group>  
+      
+    </search>
+  </field>
+</record>
+
+</odoo>
